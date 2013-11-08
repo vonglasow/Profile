@@ -1,0 +1,18 @@
+{
+    "name": "vendor/profile",
+    "description": "Profiling class without intrusion",
+    "license": "WTFPL",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "alexis von Glasow",
+            "email": "vonglasow@gmail.com"
+        }
+    ],
+    "require": {
+        "atoum/atoum": "^3.0"
+    },
+    "autoload": {
+        "psr-0": {"Profile\\": "src/"}
+    }
+}
